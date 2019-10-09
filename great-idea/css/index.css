@@ -64,3 +64,195 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+ .nav_bar {
+	padding: 0px;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	
+}
+
+a {
+	color:lightgray;
+	display: flex;
+	text-decoration: none;
+}
+
+nav {
+	width: 60%;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.nav-img {
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+}
+
+  
+h1{
+	padding: 1% 5% 0% 5%;
+	font-size: 40px;
+	text-align: center;	
+}
+
+header{
+	
+	margin: 120px 50px 10px 200px;
+	padding: 10px 150px;
+	
+}
+
+.snippet {
+	margin: 70px 50px 60px 0px;
+	padding: 10px 80px;
+}
+
+.header_1{
+	column-count: 2;
+}
+
+
+.button {
+	border: 1px solid gray;
+	margin: 10px 0px 20px 0px;
+	padding: 5px 20px 5px 20px;
+	text-align: center;
+}
+
+.services-header-img{
+	width: 100%;
+	display: flex;
+	margin-top: 20px;
+  
+}
+
+hr {
+	margin: 20px 260px;
+	width: 70%;	
+	
+}
+
+h2{
+	font-size: 30px;
+}
+
+.service-box{
+	width: 66%;
+	margin: 50px 260px 0px 260px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+h3{
+	font-size: 20px;
+}
+
+.tiny-headline{
+	text-align: center;
+}
+
+.first_content{
+	width: 45%;
+	height: 
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	column-count: 2;
+	margin: 20px 30px 20px 320px;
+	width: 62%;	
+}
+
+.second_content{
+	width: 30%;
+	height: 
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	column-count: 3;
+	margin: 20px 30px 20px 320px;
+	width: 62%;
+}
+
+img{
+	padding: 0% 23% 0% 23%;
+}
+
+ .contact{
+	margin: 15px 40px 0px 320px;
+
+}
+
+.info{
+	margin: 10px 40px 40px 320px;
+}
+
+.copyright {
+	text-align:center;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+
+
+.all-content{
+	margin: 0px 250px;
+	width: 70%;
+	display: flex;
+	align-content: flex-start;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+
+	
+}
+
+.content-box{
+	margin: 20px;
+	width: 350px;
+	height: 280px;
+	padding: 20px;
+	border: solid black;	
+	background: silver;
+	display: flex;	
+	flex-wrap: wrap;
+	
+}
+
+button{
+	margin: 20px;
+	text-align: center;
+	border-radius: 10px;
+	border:
+}
+
+.fact-box {
+	width: 100%;
+	margin: 20px 250px;
+	display: flex;
+	
+}
+
+.fact-text{
+	width: 40%;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+ul{
+	list-style-type:square;
+	margin: 10px 0px;
+	padding-left:1em;
+	line-height:1.4;
+}
+
+.services-info-img{
+	padding: 0;
+}
